@@ -1,9 +1,9 @@
 * Gestion des Utilisateurs
 ** Créer un utilisateur [F8]
+*** [Include] transmission login+mdp [F18]
 ** Modifier un utilisateur [F8]
 *** [Include] transmission login+mdp [F18]
 ** Supprimer un utilisateur [F8]
-*** [Include] transmission login+mdp [F18]
 ** Visualiser un utilisateur [F8]
 ** Visualiser la liste des utilisateurs [F8]
 ** Authentification
@@ -114,7 +114,7 @@
 *** Visualiser un courrier type [F??]
 *** Visualiser la liste des courriers type [F??]
 
-* Gestion Statitstiques
+* Gestion Statistiques
 ** Créer une statistique [F20]
 ** Modifier une statistique [F20]
 ** Supprimer une statistique [F20]

@@ -2,7 +2,7 @@ body{
 	font-family: arial, verdana, sans-serif ;
 	font-size: 10pt ;
 	color: #000000 ;
-	background-color: #DEEBF1 ;
+	background-color: #DEEBF1;
 }
 
 /* ----- Zone supérieure ----- */
@@ -33,13 +33,11 @@ ul#menu {
 	color:white;
 	text-decoration:none;
 }
-#menu a:hover{
-	color:black;
-}
+#menu a:hover{color:black;}
 /* --- Bloc menu préférences --- */
 #bloc_menu2{
 	margin-top:-25px;
-	margin-right:+150px;
+	margin-right:+120px;
 }
 #menu2{
 	color:black;
@@ -59,11 +57,7 @@ ul#menu2 {
 	color:black;
 	text-decoration:none;
 }
-#menu2 a:hover{
-	color:white;
-}
-
-
+#menu2 a:hover{color:white;}
 
 /* ----- Zone principale ----- */
 #global { 
@@ -74,43 +68,36 @@ ul#menu2 {
 float: left;
 width: 220px;
 background-color:#DEEBF1;
-color: white;
 }
 .gauche{
 	background-color:white;
 	border-width:1px;
 	border-style:solid;
 	border-color:#809AD0;
-	margin-top:10px;
 	margin-bottom:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
 }
-ul.gauche {
-	color:black;
+.gauche ul{
 	list-style-type: none;
 	margin:5px;
 	padding:0;
 	border-style:none;
-	background-color:white;
 }
-#bloc_gauche h2{
-	font-size:14px;
-	margin:5px;
+.gauche a{
 	color:black;
 	text-decoration:none;
+}
+.gauche a:hover{font-weight:bold;}
+.gauche h2{
+	font-size:14px;
+	margin:5px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
 	border-bottom-color:#DEEBF1;
 }
-#bloc_gauche h2:first-letter{
-	color:red;
-}
-#bloc_gauche a{
-	color:black;
-	text-decoration:none;
-}
-#bloc_gauche a:hover{
-	font-weight:bold;
-}
+.gauche h2:first-letter{color:red;}
+
 /* --- Zone de droite --- */
 #contenu {
 	background-color:white;
@@ -120,19 +107,18 @@ ul.gauche {
 	margin-left:230px;
 	padding-left:10px;
 	margin-right:30px;
+	-moz-border-radius:10px;
+	border-radius:10px;
 }
 #contenu h2{
 	font-size:14px;
 	margin:5px;
 	color:black;
-	text-decoration:none;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
 	border-bottom-color:#DEEBF1;
 }
-#contenu h2:first-letter{
-	color:red;
-}
+#contenu h2:first-letter{color:red;}
 
 /* ----- Zone inférieure ----- */
 #pied {

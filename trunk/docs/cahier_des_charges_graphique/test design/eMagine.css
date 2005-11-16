@@ -76,7 +76,6 @@ background-color:#DEEBF1;
 	border-color:#809AD0;
 	margin-bottom:10px;
 	-moz-border-radius:10px;
-	border-radius:10px;
 }
 .gauche ul{
 	list-style-type: none;
@@ -108,7 +107,6 @@ background-color:#DEEBF1;
 	padding-left:10px;
 	margin-right:30px;
 	-moz-border-radius:10px;
-	border-radius:10px;
 }
 #contenu h2{
 	font-size:14px;

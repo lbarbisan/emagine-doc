@@ -67,12 +67,12 @@ ul#menu2 {
 /* pas de largeur définie donc la page va occuper toute la largeur */
 }
 /* --- Zone de gauche --- */
-#bloc_gauche {
+#left_bloc {
 	float: left;
 	width: 220px;
 	background-color:#DEEBF1;
 }
-.gauche{
+.left{
 	background-color:white;
 	border-width:1px;
 	border-style:solid;
@@ -80,28 +80,28 @@ ul#menu2 {
 	margin-bottom:10px;
 	-moz-border-radius:10px;
 }
-.gauche ul{
+.left ul{
 	list-style-type: none;
 	margin:5px;
 	padding:0;
 	border-style:none;
 }
-.gauche a{
+.left a{
 	color:black;
 	text-decoration:none;
 }
-.gauche a:hover{font-weight:bold;}
-.gauche h2{
+.left a:hover{font-weight:bold;}
+.left h2{
 	font-size:14px;
 	margin:5px;
 	border-bottom-width:1px;
 	border-bottom-style:solid;
 	border-bottom-color:#DEEBF1;
 }
-.gauche h2:first-letter{color:red;}
+.left h2:first-letter{color:red;}
 
 /* --- Zone de droite --- */
-.contenu {
+.content {
 	color:black;
 	border-width:1px;
 	border-style:solid;
@@ -112,11 +112,11 @@ ul#menu2 {
 	-moz-border-radius:10px;
 	background-color:white;
 }
-.contenu p{
+.content p{
 	font-size: 10pt ;
 	color: black ;
 }
-.contenu h2{
+.content h2{
 	font-size:14px;
 	margin:5px;
 	color:black;
@@ -124,8 +124,8 @@ ul#menu2 {
 	border-bottom-style:solid;
 	border-bottom-color:#DEEBF1;
 }
-.contenu h2:first-letter{color:red;}
-.contenu table,tr,td,th{
+.content h2:first-letter{color:red;}
+.content table,tr,td,th{
 	text-align:left;
 	font-size:10pt;
 	color:black;
@@ -135,10 +135,10 @@ ul#menu2 {
 	padding:0;
 	margin:0;
 }
-.contenu table{
+.content table{
 	border-right-style:none;
 }
-.contenu th{
+.content th{
 	color:white;
 	padding-left:2px;
 	background:url(images/fond.gif);
@@ -146,19 +146,19 @@ ul#menu2 {
 	background-position:center;
 	border-style:none;
 }
-.contenu td{
+.content td{
 	border-left-style:none;
 	padding-left:2px;
 	border-bottom-style:none;
 	background-color:white;
 }
-.contenu a{
+.content a{
 	font-size:10pt;
 	color:black;
 	font-weight:bold;
 	text-decoration:none;
 }
-.contenu a:hover{text-decoration:underline;}
+.content a:hover{text-decoration:underline;}
 
 #actions{}
 #actions ul{
@@ -178,19 +178,19 @@ ul#menu2 {
 	border-style:none;
 }
 
-#recherche{}
-#recherche ul{
+#search{}
+#search ul{
 	font-weight:bold;
 	list-style-type: none;
 	margin:5px;
 	padding:0;
 	border-style:none;
 }
-#recherche li {
+#search li {
 	display:inline;
 }
 /* ----- Zone inférieure ----- */
-#pied {
+#footer {
 	text-align:center;
 	margin:10px;
 	font-size:10px;
